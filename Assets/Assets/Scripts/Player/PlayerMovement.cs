@@ -20,5 +20,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] int _maxHealth;
 
     #region States
+
     #endregion
 }
