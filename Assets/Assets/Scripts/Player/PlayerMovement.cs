@@ -50,13 +50,9 @@ public class PlayerMovement : MonoBehaviour
         {
             direction = Vector3.right;
         }
-        if (Input.GetKey(KeyCode.W) && IsGrounded())
+        if (Input.GetKey(KeyCode.K) && IsGrounded())
         {
             _rigidbody.AddForce(Vector2.up * _JumpForce, ForceMode2D.Impulse);
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            _rigidbody.AddForce(Vector2.down * _JumpForce, ForceMode2D.Impulse);
         }
         if (direction != Vector3.zero)
         {
