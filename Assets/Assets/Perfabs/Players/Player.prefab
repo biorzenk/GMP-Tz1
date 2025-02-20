@@ -99,12 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 501e57a480fc58347b763b55d28ee39a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _velo: 5
-  _velocity: 5
-  _JumpForce: 5
+  _velo: 3
+  _velocity: 3
+  _JumpForce: 1
   _groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   _groundCheck: {fileID: 197034175271493526}
   _ThrowPos: 0
   _maxHealth: 0
