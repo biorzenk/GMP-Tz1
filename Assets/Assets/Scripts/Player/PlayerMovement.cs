@@ -5,42 +5,51 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Number Field")]
-    [SerializeField] float _velo;
-    [SerializeField] float _velocity;
-    [SerializeField] float _JumpForce;
+    [SerializeField] public float velo;
+    [SerializeField] public float jumpForce;
 
     [Header("GroundCheck JumpForce")]
-    [SerializeField] LayerMask _groundLayer;
-    [SerializeField] Transform _groundCheck;
-
-    [Header("Throw Position")]
-    [SerializeField] float _ThrowPos;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private Transform groundCheck;
 
     [Header("Health")]
-    [SerializeField] int _maxHealth;
+    [SerializeField] public int maxHealth;
 
-    private Rigidbody2D _rigidbody;
+    private Rigidbody2D rigidbody2D;
 
     void Start()
     {
-        _rigidbody = GetComponent<Rigidbody2D>(); 
+        rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     #region States
 
     public void Move(Vector3 direction)
     {
-        transform.Translate(direction * _velo * Time.deltaTime);
+        transform.Translate(direction * velo * Time.deltaTime);
     }
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(_groundCheck.position, 0.1f, _groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
     }
 
     void Update()
     {
-        Vector3 direction = Vector3.zero; 
+        HandleInput();
+    }
+
+    void FixedUpdate()
+    {
+        if (IsGrounded() && Input.GetKey(KeyCode.K))
+        {
+            rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        }
+    }
+
+    private void HandleInput()
+    {
+        Vector3 direction = Vector3.zero;
 
         if (Input.GetKey(KeyCode.A))
         {
@@ -50,10 +59,7 @@ public class PlayerMovement : MonoBehaviour
         {
             direction = Vector3.right;
         }
-        if (Input.GetKey(KeyCode.K) && IsGrounded())
-        {
-            _rigidbody.AddForce(Vector2.up * _JumpForce, ForceMode2D.Impulse);
-        }
+
         if (direction != Vector3.zero)
         {
             Move(direction);
