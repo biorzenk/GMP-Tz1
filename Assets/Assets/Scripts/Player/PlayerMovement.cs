@@ -8,62 +8,59 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public float velo;
     [SerializeField] public float jumpForce;
 
-    [Header("GroundCheck JumpForce")]
-    [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private Transform groundCheck;
-
     [Header("Health")]
     [SerializeField] public int maxHealth;
 
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D rb;
 
-    void Start()
-    {
-        rigidbody2D = GetComponent<Rigidbody2D>();
-    }
+    float horizontalInput;
+    bool isGrounded = false;
+    private Animator animator;
+    bool isFacingRight = true;
 
     #region States
 
-    public void Move(Vector3 direction)
+    void Start()
     {
-        transform.Translate(direction * velo * Time.deltaTime);
-    }
-
-    private bool IsGrounded()
-    {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        HandleInput();
+        horizontalInput = Input.GetAxis("Horizontal");
+
+        FlipSprite();
+        if (Input.GetButtonDown("Jump") && isGrounded) 
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            isGrounded = false;
+            animator.SetBool("isJumping", true); 
+        }
     }
 
     void FixedUpdate()
     {
-        if (IsGrounded() && Input.GetKey(KeyCode.K))
+        rb.velocity = new Vector2(horizontalInput * velo, rb.velocity.y);
+        animator.SetFloat("Xvelocity", Mathf.Abs(rb.velocity.x));
+        animator.SetFloat("Yvelocity", rb.velocity.y); 
+    }
+
+    private void FlipSprite()
+    {
+        if (isFacingRight && horizontalInput < 0f || !isFacingRight && horizontalInput > 0f)
         {
-            rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            isFacingRight = !isFacingRight;
+            Vector3 ls = transform.localScale;
+            ls.x *= -1;
+            transform.localScale = ls;
         }
     }
 
-    private void HandleInput()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        Vector3 direction = Vector3.zero;
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            direction = Vector3.left;
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            direction = Vector3.right;
-        }
-
-        if (direction != Vector3.zero)
-        {
-            Move(direction);
-        }
+        isGrounded = true;
+        animator.SetBool("isJumping", false);
     }
 
     #endregion
