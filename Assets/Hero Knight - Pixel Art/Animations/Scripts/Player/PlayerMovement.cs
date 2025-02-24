@@ -5,59 +5,62 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Number Field")]
-    [SerializeField] float _velo;
-    [SerializeField] float _velocity;
-    [SerializeField] float _JumpForce;
-
-    [Header("GroundCheck JumpForce")]
-    [SerializeField] LayerMask _groundLayer;
-    [SerializeField] Transform _groundCheck;
-
-    [Header("Throw Position")]
-    [SerializeField] float _ThrowPos;
+    [SerializeField] public float velo;
+    [SerializeField] public float jumpForce;
 
     [Header("Health")]
-    [SerializeField] int _maxHealth;
+    [SerializeField] public int maxHealth;
 
-    private Rigidbody2D _rigidbody;
+    private Rigidbody2D rb;
 
-    void Start()
-    {
-        _rigidbody = GetComponent<Rigidbody2D>(); 
-    }
+    float horizontalInput;
+    bool isGrounded = false;
+    private Animator animator;
+    bool isFacingRight = true;
 
     #region States
 
-    public void Move(Vector3 direction)
+    void Start()
     {
-        transform.Translate(direction * _velo * Time.deltaTime);
-    }
-
-    private bool IsGrounded()
-    {
-        return Physics2D.OverlapCircle(_groundCheck.position, 0.1f, _groundLayer);
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        Vector3 direction = Vector3.zero; 
+        horizontalInput = Input.GetAxis("Horizontal");
 
-        if (Input.GetKey(KeyCode.A))
+        FlipSprite();
+        if (Input.GetButtonDown("Jump") && isGrounded) 
         {
-            direction = Vector3.left;
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            isGrounded = false;
+            animator.SetBool("isJumping", true); 
         }
-        else if (Input.GetKey(KeyCode.D))
+    }
+
+    void FixedUpdate()
+    {
+        rb.velocity = new Vector2(horizontalInput * velo, rb.velocity.y);
+        animator.SetFloat("Xvelocity", Mathf.Abs(rb.velocity.x));
+        animator.SetFloat("Yvelocity", rb.velocity.y); 
+    }
+
+    private void FlipSprite()
+    {
+        if (isFacingRight && horizontalInput < 0f || !isFacingRight && horizontalInput > 0f)
         {
-            direction = Vector3.right;
+            isFacingRight = !isFacingRight;
+            Vector3 ls = transform.localScale;
+            ls.x *= -1;
+            transform.localScale = ls;
         }
-        if (Input.GetKey(KeyCode.K) && IsGrounded())
-        {
-            _rigidbody.AddForce(Vector2.up * _JumpForce, ForceMode2D.Impulse);
-        }
-        if (direction != Vector3.zero)
-        {
-            Move(direction);
-        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        isGrounded = true;
+        animator.SetBool("isJumping", false);
     }
 
     #endregion
