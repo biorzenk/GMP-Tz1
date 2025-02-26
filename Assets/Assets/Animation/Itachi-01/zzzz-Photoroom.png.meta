@@ -1,0 +1,7013 @@
+fileFormatVersion: 2
+guid: 09cbb3199a3e61b49a5059d060cc1309
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zzzz-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1166
+        width: 125
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e827df4a22a1e2469085dfc7223683b
+      internalID: -281461603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1208
+        width: 152
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3339990f0739a0f4485d158d99fa6e6a
+      internalID: 1663003946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1224
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebf0fe224af80945b71e30a818127c9
+      internalID: -282540600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1225
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c4842b370a7784491234990ab7cc01
+      internalID: 1453967442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1225
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3772b7a6a65120d41abaed358503853b
+      internalID: -1818034304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1225
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6268058b2ea8897408dd92e0d180cc10
+      internalID: 1746624625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1226
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea675cdf6d59a464bac0c965d4f1236c
+      internalID: 1116902498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1228
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38349e9af599ed64aa733a0761c5357b
+      internalID: -2026600932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1228
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692358a342069614aa46fbf4e6083538
+      internalID: 1507615894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1232
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2922c71cf300e42b5dd012e0ff1e63
+      internalID: -1942595907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1224
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49df7f9610b5b3143b3a519089975052
+      internalID: 1070312146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1173
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7121a7c71d02ae24784df884026119e8
+      internalID: 1820349585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1177
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a63b3a2bb7e6144a4881bb1a516e6d
+      internalID: 1185897112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1177
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46654c622cf9ab54b8307ff3e716219d
+      internalID: 1785255087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1177
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef760086837028d4f8dd901360ca9bc5
+      internalID: 1929190835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1148
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bf85e852325284b8bf59ac275213e5
+      internalID: -1978356586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1160
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c474f17ec790d441878230286712b08
+      internalID: 2024705614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1157
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5174712f42f3b749a3a422eadcb846e
+      internalID: -703559924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1156
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0394798751075f408d3da0ddb5e9cab
+      internalID: 192518560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1156
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d3358c302bb9c4ba8ab9b90bd96217
+      internalID: -517972541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1156
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abff02a2e98fba4bbc8f69552250abc
+      internalID: 1420381918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1157
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bd2950906296444aade5fe0a5ac0a7
+      internalID: 146888335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1157
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7ad5de3b4ad9c4cb71a558c9813ad9
+      internalID: -1595337438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1160
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169788efc440c2d4fa24ee216c479889
+      internalID: -59545252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1104
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f1148295d78644fa5229f6d39193c5
+      internalID: -1690159805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1104
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ad24f07e27bff4f9eb90ea750b727a
+      internalID: -1337484707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1104
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc105d44f0e73243b61019feb155696
+      internalID: -114783699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1104
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42049eb2fb4d11247885819c8404b324
+      internalID: 1575486720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1105
+        width: 14
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ce8c1f216bb9446a9dd78317757365
+      internalID: 171768854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1105
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef8c396d8fde604aaa019d1706e13e6
+      internalID: -1619455849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1104
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b9899558d747742af3416c144fbe5f
+      internalID: -56134874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1081
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9bd46a70b0fb84a92e77f1845fdfeb
+      internalID: 1732670023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1081
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef578d701e647834393beb9b6ad147cc
+      internalID: 166972686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1080
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a314e7e77876ed844ba3c8277a3329fa
+      internalID: -1631405530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1080
+        width: 29
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0048543366ed7e043a6fd185f489dfe9
+      internalID: -1536311066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1080
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a33aeb560a82164790eac8ce1c4c3d5
+      internalID: -1537093562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1081
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f260d0f2e45b0f6469adc2fe6bdfaf05
+      internalID: 815018853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1081
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb991b05bea44d498a68760afe5a16f
+      internalID: -1664768679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1081
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fbebb810f2a4449a3e906393d2efe2
+      internalID: -1687251446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1081
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd48ad459f43b4e4b8ebd13fe36b7e52
+      internalID: 153564145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1082
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a600112ae38d8749b1e949def5cda04
+      internalID: 746135996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1076
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5501ee0f1af40b34c91de1a2ae01792b
+      internalID: 1047821526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1084
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9161397e39eab7f4eba6c2918cf9194c
+      internalID: -1512367192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1022
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3cf4fe70a9a4b47963d482a06f73cf
+      internalID: 1905633215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1023
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc25f24dec70cd2499be58966cadecf1
+      internalID: 1294447548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1024
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0c91901067d594b8a50f98818cfe76
+      internalID: -335314265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1024
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32187ade9d538b9438da1eedcbad1fee
+      internalID: 508317437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1024
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81649b94500b53d41b2887c951d1fc0a
+      internalID: -1007582179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1024
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c775b20a46b5b94a9fa715413b9f0bd
+      internalID: 929692989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1067
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be469fe0c88f77d4399203add6ce1b5b
+      internalID: 1619160809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1025
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d4f294bf257e04087a694de95934e2
+      internalID: -1054967123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_51
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1072
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0ccd8621996e24eb61b2e35bc6b4cd
+      internalID: -1901459693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_52
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1025
+        width: 18
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e6f03ce22da5145b1ebcc2097121d6
+      internalID: 1628623082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_53
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1025
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df89e31eee57c84ca47aa26f0155119
+      internalID: -526463334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1025
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef13fa31c4327e7438d28f84732c983f
+      internalID: -115247590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_55
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1060
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dd904db7b49cc45ad64916b7711b94
+      internalID: -427020232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_56
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1022
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104a2ee91efbe8e4ab2073b9c6746a87
+      internalID: -273119902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_57
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1022
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa462800901c969469ae4fda5268af3f
+      internalID: 1834638784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_58
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1015
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36efd1414eb5249498381c00eb5aac6d
+      internalID: -1708159480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_59
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1014
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fccdd5cb97166446baacd0d509defa8
+      internalID: 1678609621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_60
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1015
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c80e927744c2a48bad3cc6c9277aec
+      internalID: 951237494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_61
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1015
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3cf7fbd70df914eadbbe235e04b814
+      internalID: 1439402884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_62
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1014
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d703397313b03c4ba725fef12c27453
+      internalID: -1042286638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_63
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1022
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6681c04934d28c042ae949adaf40beaa
+      internalID: 371524565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_64
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1011
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6969074c13d6e774ba4f4fc846076be0
+      internalID: -852146100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_65
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 956
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b416aa9caeed494099d3ae52f3fba8d
+      internalID: -851249625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_66
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 957
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c373c3296d4457c4e86a863ebd980199
+      internalID: -1638453193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_67
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 996
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5cbfaabe16a5c419a27a1fe3a74588
+      internalID: 917038893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_68
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 996
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603cfcefe0d49b74c881a86679f6fb02
+      internalID: -1392394293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_69
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 996
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c8b88213bd03b4a80fec0f0c53fc40
+      internalID: -1506449771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_70
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 956
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b88be8b68271440b3d31d4503b9356
+      internalID: -971498264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_71
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 956
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae017079cdc526f41bac1b56bb4ebd68
+      internalID: -648430960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_72
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 956
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d6616eba5066749bc6ebe0e0a3a0bd
+      internalID: 1399174766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_73
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 956
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ed71756e2aff54d80b7376698e340b
+      internalID: -973121119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_74
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 917
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf56ef83fb2b75944a85bc576c131dba
+      internalID: 1311445010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_75
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 917
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9132007a649694eadd19f56b5ec39f
+      internalID: -1550174030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_76
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 917
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124f33ea2704f6d42a74fbbdb3180642
+      internalID: -1554195578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_77
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 917
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e8f34023a61904185dbb1853f0ea71
+      internalID: 1279525361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_78
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 917
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104bc79ef516a4247835af8c28e99a8f
+      internalID: -1601849013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_79
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 917
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed93036080c0d0c4ab77493b167290ef
+      internalID: -1891817283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_80
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 941
+        width: 15
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988bc225b15f83c4d861c461d5bf6dcf
+      internalID: 1977972098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_81
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 941
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7ab95284522404abe1e021545596eb
+      internalID: -988995183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_82
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 942
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a78c9feab3e31d4d95b1dc97e225352
+      internalID: 1463015169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_83
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 943
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e935d8e6088f34a8064ef540ffd78a
+      internalID: 1573026250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_84
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 944
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab4912e82dc92249baecd8345bb114e
+      internalID: -300004847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_85
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 944
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489724ea2eb1a964da67013c085c7c97
+      internalID: 464883799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_86
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 944
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a89d1fb3f6f7446b3b55c6f16ff842
+      internalID: -1103540462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_87
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 945
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c614e6dbf894438e696bd676263bb
+      internalID: 1196099836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 854
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14250919662050f41a126cc2e62c312b
+      internalID: 1493881432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_89
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 856
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b9d9613ac013d4bba7aa13042afdd9
+      internalID: 1219650289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_90
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 856
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163d3d4cb9512cf4b8af0e45328eafa3
+      internalID: 2047989458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_91
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 857
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc070aaa8f84874abc3d7446d12d915
+      internalID: -1869874165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_92
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 857
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5ae1c029c380a4c80672408dab1366
+      internalID: 233477587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_93
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 860
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f97a3cda4cccd49ae2bbb50ffc5b23
+      internalID: -1703607150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_94
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 860
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2707898cad719874693959a75c3ba1b6
+      internalID: 618295115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_95
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 861
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ac7062cc3c6504db23aa93b5a3225a
+      internalID: 136174545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_96
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 886
+        width: 18
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82ec1dcd2e42aa4c8aaced9b8785b65
+      internalID: 867499347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_97
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 888
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63469e2b274992d4facf491dffe90880
+      internalID: 501450024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_98
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 888
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e555338ba6c23d499807e8f6230eb9f
+      internalID: -821785992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_99
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 888
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e037c232f4adc947907f8710c44936e
+      internalID: -1862519430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_100
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 888
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcc978b2301fad4cac21973b2fd66cb
+      internalID: 1356272445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_101
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 887
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acb12d689024b747846968f327be607
+      internalID: 1403631048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_102
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 887
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590e3735e998aea4a92f7eab86dec765
+      internalID: -1891050899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_103
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 887
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b031fe767450f42822254e3900393e
+      internalID: -1149197675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_104
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 887
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbad234914bf584fa9247a071a22e83
+      internalID: -964355283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_105
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 887
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d724289aa60dd544a04944c2a8ac87a
+      internalID: -254962648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_106
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 855
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbbdbda556f1704598c2231c0ae723d
+      internalID: -851860608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_107
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 810
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db71368e37c7b27488c9ee31a04673a3
+      internalID: 907956968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_108
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 824
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307c113c9bc51674a93b0bb2df99e8c9
+      internalID: -1226866543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_109
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 824
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaf8f795e1567c499ff2c1966dab4c0
+      internalID: 975440730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_110
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 824
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c478b3ab69d8b794db91c4af35763ed4
+      internalID: -1970755168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_111
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 824
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ec9c98db288ac449e1fc65f4ca75d9
+      internalID: -614758503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_112
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 824
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297849ac59717a045856179829972aa6
+      internalID: -338699028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_113
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 824
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed152dd8de646c34099d49a7a9613191
+      internalID: 2064112553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_114
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 824
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed85eebc1ba4f874883088decf00dfbd
+      internalID: -287640101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_115
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 824
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d69c2ac6888a70498ee7ce3065de357
+      internalID: 1206452926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_116
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 824
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ee0a9ca2286f84e8334715d792f6e4
+      internalID: 896031350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_117
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 804
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958ed35f299dc2546831e6b4ecdaa36a
+      internalID: 1754448775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_118
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 804
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0553633ed2afa8e449b1eefc38f61f0e
+      internalID: 2142982570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_119
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 808
+        width: 52
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8758d50602529f74da982083107d7c89
+      internalID: 48927088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_120
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 810
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c713a51383e8e4aacab8597c716982
+      internalID: 1966107781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_121
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 810
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d79e3eb6a7c1f2479c47c5adeaa0a3e
+      internalID: 1238310628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_122
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 772
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9347fc86398a3e4599735abb9b9c65e
+      internalID: -465732074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_123
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 771
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba31a95264d3914b9f1d75bf0352fb0
+      internalID: -19185250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_124
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 771
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672e615c984418f4ca52d022f8ffbb0e
+      internalID: 2138300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_125
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 771
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e6fbc97b2cc5542a45d04d81e0103d
+      internalID: 1851278962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_126
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 771
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ea569eeae57df4197f02bf569829e6
+      internalID: -1415930363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_127
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 771
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fa4c0f11830ec4bbf450454e55b28e
+      internalID: 1481926688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_128
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 771
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955654032c0c3c5458a42f2679498d6d
+      internalID: -1569384687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_129
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 772
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f668688b84417c47a5aca787ac63f4b
+      internalID: 1309915191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_130
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 770
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558e6e8966875a4e92c922312570a8c
+      internalID: 812369943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_131
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 737
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73361b312ff5334498eb998963094740
+      internalID: 618493514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_132
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 745
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412098fd0287615429316c0c3bbc9f21
+      internalID: -532358083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_133
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 760
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ead3fd858b07924c8625fdf58563e25
+      internalID: 688981415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_134
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 757
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b4c0941567be243ba80cca38506717
+      internalID: 1229739359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_135
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 745
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc3a46c179a9854fb020abee80f37cc
+      internalID: -424029257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_136
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 738
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4988b5bbc97f3b4cafd5c4e827f90b1
+      internalID: -1331028967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_137
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 740
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832051a950e535b47a5b42b10552a24b
+      internalID: -85207338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 676
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3488f5120b332d4eb4a3cfdd1428d30
+      internalID: 66285183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_139
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 676
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaef51f15652feb46b576f1cd46052c7
+      internalID: 896392324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_140
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 676
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10557c8989712ab4595cdcfd433f4280
+      internalID: 527427840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_141
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 676
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace87625773d9ff4ebce071d6b66eb62
+      internalID: 1980760437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_142
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 679
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93167d82ad731ce44bec8d1a9742f196
+      internalID: 1604024610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_143
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 678
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a26b25f61ea6aa4eb660e3aa9298f70
+      internalID: -761535913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_144
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 708
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f400fb4eeae44d54495543925489bc4e
+      internalID: -2019785604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_145
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 706
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8529bf29657b44246a6a7cf98a479651
+      internalID: 19463832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_146
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 705
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc615c9e3d04028439f70674f062ed14
+      internalID: -1580215940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_147
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 705
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c770e809961c34fb20eb5b47aab7ab
+      internalID: 139389497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_148
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 705
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f63aaf4153bdde43b7f1098e4d450a9
+      internalID: 1777697229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_149
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 705
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460554a7ea9a4c046beb5fa60614b109
+      internalID: -719150444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_150
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 711
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fd890d2d014d24a9c7796abc2b4ec4
+      internalID: -1913221124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_151
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 707
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a2da0641de4e6458508dfd049d1410
+      internalID: -436972808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_152
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 706
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c126dd843fb69d1409675cdd4ec32288
+      internalID: -614405565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839b083a3708b5243a578b904315d6d9
+      internalID: 1497948968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_154
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 619
+        width: 78
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bffa44cb057aa47acca752c0537e63
+      internalID: 1216818750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_155
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 619
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7094e00e9caeb4e8f407ff376a2541
+      internalID: 780594587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_156
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 619
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f3899b16b75b6408bebef92dd882d7
+      internalID: -1302511948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_157
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 620
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b252b907d3038d14783cdeb061d767fe
+      internalID: 648592543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_158
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 632
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5204aee8f65c6445b4ed798d03bb2f0
+      internalID: 1576420501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_159
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 633
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a71f3ff361994cb5a131f2e9182d8
+      internalID: 135676649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_160
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 634
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f33d3d38e8fba740859ecbc16602664
+      internalID: 1557146745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_161
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 634
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f6ca91254093f4ea973285d77983b3
+      internalID: -1196221801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_162
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 634
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd26eb93e8713f41a4bfb6247a344e0
+      internalID: -1800081829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_163
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 634
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46f9c103067f3b4db6cf14406eb28db
+      internalID: 629190844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_164
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 629
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dccfb326ccff4c4785a0c74484313b3
+      internalID: 547950077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_165
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 553
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154f33b916680d848b08f1c85e588c42
+      internalID: -928938751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_166
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 553
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5025ea256629d8a48862b9c72b856792
+      internalID: 1686048229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_167
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 553
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d776b20826c344ba2667fc6d8fe3fe
+      internalID: 412524289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_168
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 553
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8b1a8db85515543b75cb7f6e6480ae
+      internalID: -1682466803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_169
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 556
+        width: 83
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05240d88f4cc512408643a7632773043
+      internalID: -384206572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_170
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 573
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20df7a5a3dcb91408ee51bdad8843ea
+      internalID: 732064775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_171
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 573
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304eafac2456ad641aaab97bcafc854b
+      internalID: 156969772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_172
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 573
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12173dac834a0e4ab994c7f21250abe
+      internalID: 830167867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_173
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 573
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f27c2011e28e75498714b15b3a8af7b
+      internalID: 628985619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_174
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 574
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6083ddbc19ae8814f9eb6ec6d1c80baf
+      internalID: -1033117759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_175
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 574
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830d44c40efa3f640a06b1f032db4429
+      internalID: 705074235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_176
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 574
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393560adfc2693a4dbc138f1594acab0
+      internalID: -50576844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_177
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 574
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a0be3e831491c44b536cba04a990c5
+      internalID: -830621024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_178
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 574
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cca682188dd1244b6b1a9320f9cedc
+      internalID: 1622789594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_179
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 575
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eeb85d95ee4b44c9f5868077883387
+      internalID: -1873242396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_180
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 575
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4c0742b3f88de489d8280784216e67
+      internalID: 2062423932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_181
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5915d0cdeacf0843bf1830d33863e5b
+      internalID: 2137561622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_182
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 501
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781312c841ab6434c974b644a9885e73
+      internalID: -1289257591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_183
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 504
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b5f7e6157cd0f4d8e7eea41cdb2cce
+      internalID: 968110988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_184
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 504
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3b3560416d171468359083682db6f8
+      internalID: -1170329377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_185
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 504
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c650d5f5700a9a4286d4c2286d39c55
+      internalID: 1894211378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38392e1196bda6647ace38dae2235013
+      internalID: -488003405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_187
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 422
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5586a7ff30e57c44db077e2955a0a1bd
+      internalID: 894442494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_188
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 423
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18082c8e662bb94b958147e548fba52
+      internalID: 339858162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_189
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 423
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76949a33754434e4f89ee43fdf1df05a
+      internalID: 1047144362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_190
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 424
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f12f9bb5632a714abb9d680613d8c97
+      internalID: -639141795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_191
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 448
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2323f7be49e6a4f94d073c9d88789b
+      internalID: 1973037765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_192
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 448
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc79edad5ba3324fa0c4836b3549fe3
+      internalID: 832230520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_193
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 448
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a38b31949c13640ad2d0f540edda3c
+      internalID: 241771536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_194
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 449
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49e6a547c2eb0d46b152a09b55e3b3d
+      internalID: 101607310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_195
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 449
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877708ea68f22154b8043cba1d757489
+      internalID: -1576480136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_196
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 449
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e13e0d3da7f1745a989532f5391882
+      internalID: -439612645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_197
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 450
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453dd12f9f87a404baaae291c62fcd06
+      internalID: -468910490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_198
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 450
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1e29048d0893c40bd6ce59749a1b63
+      internalID: 955384239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_199
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 450
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c0210530d39ef448697f584d254535
+      internalID: 2013407904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_200
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 370
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96563c02a7b62c4abb858d6902e2c02
+      internalID: -663759841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_201
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 368
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08a910598c99084986af0366e7ed0d9
+      internalID: -1159541763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_202
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 364
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b11a98d634284344bb0d017a3e8b304
+      internalID: -1718344955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_203
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 370
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2648437fea2bc8c48876b99a21b90f56
+      internalID: -241539250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_204
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 370
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0806430798a9a5e4bbce162d56712625
+      internalID: 400522899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_205
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 384
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69f5853123735f43aa33462a2d44ccd
+      internalID: -1937597061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_206
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 384
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e8a6f974797ee4db91dd8c8c0c1f18
+      internalID: -2102041009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_207
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 382
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af84099cb1427de4882b562f4bca654d
+      internalID: 1147903693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_208
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 382
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6083f493875aeba4687fdc8afcf15353
+      internalID: 464181527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_209
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 384
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad4eb22e636606439242e383584299a
+      internalID: 1910836022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_210
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 382
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e835779ee32041b4187cdcdc12bd9348
+      internalID: -1465883532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_211
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 382
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5ec8b0ccc458a4092b93a0695b7db8
+      internalID: 659632723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_212
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 384
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8e50aeedb003245abec021cd821940
+      internalID: -540683266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_213
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 294
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d807c9be675314991d47d6c8453713
+      internalID: 1804979380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_214
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 294
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cae7890e6b070e46b2e5559084404b5
+      internalID: 1789413531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_215
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 295
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000fe6d99d25321469670bf348f02b3b
+      internalID: 1473324787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_216
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 296
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc602f96d11bd0a4cbe2ce3734744ac7
+      internalID: 1064472925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_217
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 296
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce4eadde6a35dc40ad899aae25bde54
+      internalID: -958747883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_218
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 296
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e55906f14a65d4b82eb3817f64aeca
+      internalID: 1554541300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_219
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 296
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbadf94f233de624aa0af426b83cf71b
+      internalID: -518929556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_220
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 311
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5130db0a28a98384a9eabce96d1b0f4f
+      internalID: -746277281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_221
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 309
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb862f1e7cb29e6448fff69d7edde079
+      internalID: -993373144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_222
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 309
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6506628797e222f42930dbf209f8af6c
+      internalID: -516235579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_223
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 309
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ae0fc88bc03c14796f0344b5f542ae
+      internalID: -1970841005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_224
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 310
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e3bdd86ef146a4a8cd69ad37f0d1a6
+      internalID: 14687271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_225
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 311
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258ac74eb6c5cff418ad5bd9304cd777
+      internalID: 1986838239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_226
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 311
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9eb6e0762d7b549bee3320b565376c
+      internalID: -1256962342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_227
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 311
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff59132be08bf5499ed7ee2f97a9f42
+      internalID: 61298235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_228
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 305
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d10ac911fd326843ad98830e41b0ecd
+      internalID: -911431368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_229
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 306
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5361e95c626777342b85b8b19fdb6ea9
+      internalID: -1169422788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_230
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 233
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf243ea2f971e545b0c2a598478a0d8
+      internalID: 1111346099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_231
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 233
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7389a325d6381d347912865400cd87e6
+      internalID: 1500611749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_232
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 233
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77a79dfb6622d468deb35b34ef5d63
+      internalID: -125781050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_233
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 233
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7bdc95271e96b41923f1718a5301c4
+      internalID: -1228832186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_234
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 232
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f393bd47e9f5a4aab7ed60042b1019
+      internalID: -1351310486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_235
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 232
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd55cca65247be44aad669ec344331f
+      internalID: -895259710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_236
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 233
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dac1eaf77adf54fb41c84b33856b86
+      internalID: -539431082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_237
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 233
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7c9e6dbf38da54aa8e299682e3d887
+      internalID: -915169918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_238
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 234
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2143cd6ccb9454c801c936b1a54ce2
+      internalID: -1168737315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_239
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 254
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcbb60d08339af43b56ec22070dd435
+      internalID: -1400112690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_240
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 257
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ea21f6ac91d5c46aa2c80db2dfb473
+      internalID: 1366651041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_241
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 255
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbb30ef264007247a865a50b045576b
+      internalID: 2028091591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_242
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 257
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e770d4873876254aaa95bb9d7c00d8c
+      internalID: -1411209895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_243
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 236
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310bf586a1eedc449af443cef8f617c7
+      internalID: 1630012591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_244
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 250
+        width: 97
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385d25e19d58e5b488d069d9b7347e64
+      internalID: 1238979309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_245
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a102319c18dd80c4c97cc3b20849bb91
+      internalID: 179407023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_246
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 169
+        width: 358
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcc35b738143cf4fa237b2434e97f20
+      internalID: -834980966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_247
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 168
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccfa1604ee95e246bc4b3d5fa077303
+      internalID: 742719361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_248
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 168
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e40283c8a3fd984db8fde7b62597519
+      internalID: -100995599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_249
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 172
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed426b2b2ae45a64ba141df85dac151a
+      internalID: 1153661286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_250
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 200
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5167ce00cfe05429e7081578875f6b
+      internalID: 1466015848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_251
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 200
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5fbc2a4e2754541b185842b5bbe8d3
+      internalID: -319834891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_252
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 200
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35eb86bf05d2c9841bb4236f67229bcf
+      internalID: -297345420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_253
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 200
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc43ef9bd9b831d499d08587324ea615
+      internalID: 1761679335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_254
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 200
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173d17c02a64c6d42a3b8e45acfa4fb8
+      internalID: 1717666615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_255
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 200
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c0bdb2dbffa4845aa61e708740e614
+      internalID: 1503520489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_256
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 200
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad932fafec9cac47b5773865ac56c56
+      internalID: -2028417654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_257
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 200
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752c43d3c5d182c4b8eef126f66a4df7
+      internalID: -1793846481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_258
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 200
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f9a19e484b32e41a074ddc7e11f909
+      internalID: -1955786780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_259
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b217bac9ef85114587199d70426697a
+      internalID: 1246896726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_260
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 163
+        width: 92
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d3ee1791eeb1f468f383b560d4baaf
+      internalID: -689437094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_261
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 145
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d42b3c1b76ed7048a368175821d3842
+      internalID: -2006607574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_262
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 145
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab17d1a765a24f49b3cbb4b8d756100
+      internalID: 809727571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_263
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 145
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c582a444664e0a64a93079e71027b134
+      internalID: 1226390777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_264
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 144
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6772fd4ae5faf542b5a6da509c1a109
+      internalID: -361587679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_265
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 144
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc5271a0b22f0148b7be8c447d8ce63
+      internalID: -1468430346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_266
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 112
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755d168cdd75fda44894f5d8e4663a2f
+      internalID: -164672068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_267
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 111
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcdf34254964924fba65461ede1a6af
+      internalID: 626603393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_268
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa371db958466664598d9e69fad6860f
+      internalID: 164856505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_269
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 116
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c148c400cb32008449f01fda986335ca
+      internalID: -977427011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_270
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 113
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4674eade1ed3f419deca5880ce4d44
+      internalID: 1150600808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_271
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 116
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaca0ea74b994c04e9dea49599dc607d
+      internalID: -36174311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_272
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 73
+        width: 19
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e7be53c51375644acadf2032096d3b
+      internalID: 2109207728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_273
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 73
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24bfcb3e7d5d3c4e85ea61e83efe599
+      internalID: -650777037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_274
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 73
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead8f2dbd56ffbc40ab542f6a45ba78f
+      internalID: -625110615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_275
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 73
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44260131115be4c4384c38c6bacf80a3
+      internalID: 1845700113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_276
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 75
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca92d420e3f6b042a230d3d86c075d4
+      internalID: -1687377519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_277
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 125
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e70b2a337b4bd42b5609238c5cbc01
+      internalID: 1192105447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_278
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 77
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d197b2b69200c48ba12799f02dce4a
+      internalID: -927613522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_279
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 77
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d4606b85b9caa49a2c4dbed97d78cc
+      internalID: 1003644596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_280
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 77
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b85c1f79adaea49848b569e04a70d5
+      internalID: -568771021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_281
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 77
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac03164589aaf41419a52d620727102b
+      internalID: 2010570839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_282
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c031856e60602f438456606bb934a5e
+      internalID: 34325820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_283
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 57
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866c0c6a56ec94449b6c8e54871cba49
+      internalID: 1354715336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_284
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 57
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835123e34c30e46409e2a5cff15bf4ae
+      internalID: -653601069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_285
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 104
+        width: 102
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5af7ae0ac03bbb48ac66b403617196a
+      internalID: 640387306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_286
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 57
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38d8ed45e549584b8d41de407fa7fa6
+      internalID: -1714894357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_287
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 58
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f5f7610f2856c4c854df047ebd8260
+      internalID: -989835722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_288
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 57
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34982830adc434418f79f54f67c044a
+      internalID: -1506867978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_289
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 57
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eece8dedef4d747900b3d2b2e532b2
+      internalID: -64519355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_290
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 57
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c485163f0606847b430bbbb33931c9
+      internalID: 711964991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_291
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 57
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b00d14551cdf50449d7c198b0a28c3f
+      internalID: 1812829885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_292
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 6
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93658a4860480ea47a18b6ab0147babf
+      internalID: 187441072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_293
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbba91df2fb1e64bb6fca5abbf99cbe
+      internalID: 214081484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_294
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751e1c223dd1b134fbac503845768b52
+      internalID: -1706169617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_295
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d41587ad4b6fb944b2beecfd1cd89cf
+      internalID: -1115370255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_296
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0836bb4f66bbfb841835cae1e120a473
+      internalID: -778516483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_297
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 24
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29720605ffddbcc4e9024e2b170f7d5a
+      internalID: 2045511858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_298
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 25
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31c57b4d9270d540a8b06a03d48e565
+      internalID: -1048065875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_299
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 23
+        width: 41
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea83a8d729d2e0488f68bb0a8bf4f13
+      internalID: 1043183692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_300
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 5
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cdbad8d9799c64b93b99703c992e9a
+      internalID: 736745825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_301
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 5
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0247740c7173a47964da244f0d171b
+      internalID: 947469023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_302
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 5
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2886791a4a628542861535e5ec8bd08
+      internalID: 1091004073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_303
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 6
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263438526aee5be4388e82e2300a5fe4
+      internalID: -91445536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_304
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 6
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f1df392cca3ae468573ed0ea56e07f
+      internalID: 1210402573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_305
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 6
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa67238defe7f046abbb301bb28c2ef
+      internalID: -1951528396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_306
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 6
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa20776d2bc2b54b85f93f8287ffb64
+      internalID: 1717693908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_307
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 7
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bca3d7268c7e34b8258460f0cd6933
+      internalID: -460594723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_308
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 7
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c36be5500d6482469cea06b4f57c5e7
+      internalID: 727019837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_309
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 6
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b573802e2ec1743bb21e9f810d20aa
+      internalID: 277987108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_310
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 4
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce77d7187bfdc6943ba9a85b3f29a1c0
+      internalID: -2111544001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_311
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 3
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda9016706b07cc46b58d2229a0ff40f
+      internalID: 1877603025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zzzz-Photoroom_312
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 3
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817b471a78f5b1c4e853ca5eb34734b6
+      internalID: -389234910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      zzzz-Photoroom_0: -281461603
+      zzzz-Photoroom_1: 1663003946
+      zzzz-Photoroom_10: 1070312146
+      zzzz-Photoroom_100: 1356272445
+      zzzz-Photoroom_101: 1403631048
+      zzzz-Photoroom_102: -1891050899
+      zzzz-Photoroom_103: -1149197675
+      zzzz-Photoroom_104: -964355283
+      zzzz-Photoroom_105: -254962648
+      zzzz-Photoroom_106: -851860608
+      zzzz-Photoroom_107: 907956968
+      zzzz-Photoroom_108: -1226866543
+      zzzz-Photoroom_109: 975440730
+      zzzz-Photoroom_11: 1820349585
+      zzzz-Photoroom_110: -1970755168
+      zzzz-Photoroom_111: -614758503
+      zzzz-Photoroom_112: -338699028
+      zzzz-Photoroom_113: 2064112553
+      zzzz-Photoroom_114: -287640101
+      zzzz-Photoroom_115: 1206452926
+      zzzz-Photoroom_116: 896031350
+      zzzz-Photoroom_117: 1754448775
+      zzzz-Photoroom_118: 2142982570
+      zzzz-Photoroom_119: 48927088
+      zzzz-Photoroom_12: 1185897112
+      zzzz-Photoroom_120: 1966107781
+      zzzz-Photoroom_121: 1238310628
+      zzzz-Photoroom_122: -465732074
+      zzzz-Photoroom_123: -19185250
+      zzzz-Photoroom_124: 2138300148
+      zzzz-Photoroom_125: 1851278962
+      zzzz-Photoroom_126: -1415930363
+      zzzz-Photoroom_127: 1481926688
+      zzzz-Photoroom_128: -1569384687
+      zzzz-Photoroom_129: 1309915191
+      zzzz-Photoroom_13: 1785255087
+      zzzz-Photoroom_130: 812369943
+      zzzz-Photoroom_131: 618493514
+      zzzz-Photoroom_132: -532358083
+      zzzz-Photoroom_133: 688981415
+      zzzz-Photoroom_134: 1229739359
+      zzzz-Photoroom_135: -424029257
+      zzzz-Photoroom_136: -1331028967
+      zzzz-Photoroom_137: -85207338
+      zzzz-Photoroom_138: 66285183
+      zzzz-Photoroom_139: 896392324
+      zzzz-Photoroom_14: 1929190835
+      zzzz-Photoroom_140: 527427840
+      zzzz-Photoroom_141: 1980760437
+      zzzz-Photoroom_142: 1604024610
+      zzzz-Photoroom_143: -761535913
+      zzzz-Photoroom_144: -2019785604
+      zzzz-Photoroom_145: 19463832
+      zzzz-Photoroom_146: -1580215940
+      zzzz-Photoroom_147: 139389497
+      zzzz-Photoroom_148: 1777697229
+      zzzz-Photoroom_149: -719150444
+      zzzz-Photoroom_15: -1978356586
+      zzzz-Photoroom_150: -1913221124
+      zzzz-Photoroom_151: -436972808
+      zzzz-Photoroom_152: -614405565
+      zzzz-Photoroom_153: 1497948968
+      zzzz-Photoroom_154: 1216818750
+      zzzz-Photoroom_155: 780594587
+      zzzz-Photoroom_156: -1302511948
+      zzzz-Photoroom_157: 648592543
+      zzzz-Photoroom_158: 1576420501
+      zzzz-Photoroom_159: 135676649
+      zzzz-Photoroom_16: 2024705614
+      zzzz-Photoroom_160: 1557146745
+      zzzz-Photoroom_161: -1196221801
+      zzzz-Photoroom_162: -1800081829
+      zzzz-Photoroom_163: 629190844
+      zzzz-Photoroom_164: 547950077
+      zzzz-Photoroom_165: -928938751
+      zzzz-Photoroom_166: 1686048229
+      zzzz-Photoroom_167: 412524289
+      zzzz-Photoroom_168: -1682466803
+      zzzz-Photoroom_169: -384206572
+      zzzz-Photoroom_17: -703559924
+      zzzz-Photoroom_170: 732064775
+      zzzz-Photoroom_171: 156969772
+      zzzz-Photoroom_172: 830167867
+      zzzz-Photoroom_173: 628985619
+      zzzz-Photoroom_174: -1033117759
+      zzzz-Photoroom_175: 705074235
+      zzzz-Photoroom_176: -50576844
+      zzzz-Photoroom_177: -830621024
+      zzzz-Photoroom_178: 1622789594
+      zzzz-Photoroom_179: -1873242396
+      zzzz-Photoroom_18: 192518560
+      zzzz-Photoroom_180: 2062423932
+      zzzz-Photoroom_181: 2137561622
+      zzzz-Photoroom_182: -1289257591
+      zzzz-Photoroom_183: 968110988
+      zzzz-Photoroom_184: -1170329377
+      zzzz-Photoroom_185: 1894211378
+      zzzz-Photoroom_186: -488003405
+      zzzz-Photoroom_187: 894442494
+      zzzz-Photoroom_188: 339858162
+      zzzz-Photoroom_189: 1047144362
+      zzzz-Photoroom_19: -517972541
+      zzzz-Photoroom_190: -639141795
+      zzzz-Photoroom_191: 1973037765
+      zzzz-Photoroom_192: 832230520
+      zzzz-Photoroom_193: 241771536
+      zzzz-Photoroom_194: 101607310
+      zzzz-Photoroom_195: -1576480136
+      zzzz-Photoroom_196: -439612645
+      zzzz-Photoroom_197: -468910490
+      zzzz-Photoroom_198: 955384239
+      zzzz-Photoroom_199: 2013407904
+      zzzz-Photoroom_2: -282540600
+      zzzz-Photoroom_20: 1420381918
+      zzzz-Photoroom_200: -663759841
+      zzzz-Photoroom_201: -1159541763
+      zzzz-Photoroom_202: -1718344955
+      zzzz-Photoroom_203: -241539250
+      zzzz-Photoroom_204: 400522899
+      zzzz-Photoroom_205: -1937597061
+      zzzz-Photoroom_206: -2102041009
+      zzzz-Photoroom_207: 1147903693
+      zzzz-Photoroom_208: 464181527
+      zzzz-Photoroom_209: 1910836022
+      zzzz-Photoroom_21: 146888335
+      zzzz-Photoroom_210: -1465883532
+      zzzz-Photoroom_211: 659632723
+      zzzz-Photoroom_212: -540683266
+      zzzz-Photoroom_213: 1804979380
+      zzzz-Photoroom_214: 1789413531
+      zzzz-Photoroom_215: 1473324787
+      zzzz-Photoroom_216: 1064472925
+      zzzz-Photoroom_217: -958747883
+      zzzz-Photoroom_218: 1554541300
+      zzzz-Photoroom_219: -518929556
+      zzzz-Photoroom_22: -1595337438
+      zzzz-Photoroom_220: -746277281
+      zzzz-Photoroom_221: -993373144
+      zzzz-Photoroom_222: -516235579
+      zzzz-Photoroom_223: -1970841005
+      zzzz-Photoroom_224: 14687271
+      zzzz-Photoroom_225: 1986838239
+      zzzz-Photoroom_226: -1256962342
+      zzzz-Photoroom_227: 61298235
+      zzzz-Photoroom_228: -911431368
+      zzzz-Photoroom_229: -1169422788
+      zzzz-Photoroom_23: -59545252
+      zzzz-Photoroom_230: 1111346099
+      zzzz-Photoroom_231: 1500611749
+      zzzz-Photoroom_232: -125781050
+      zzzz-Photoroom_233: -1228832186
+      zzzz-Photoroom_234: -1351310486
+      zzzz-Photoroom_235: -895259710
+      zzzz-Photoroom_236: -539431082
+      zzzz-Photoroom_237: -915169918
+      zzzz-Photoroom_238: -1168737315
+      zzzz-Photoroom_239: -1400112690
+      zzzz-Photoroom_24: -1690159805
+      zzzz-Photoroom_240: 1366651041
+      zzzz-Photoroom_241: 2028091591
+      zzzz-Photoroom_242: -1411209895
+      zzzz-Photoroom_243: 1630012591
+      zzzz-Photoroom_244: 1238979309
+      zzzz-Photoroom_245: 179407023
+      zzzz-Photoroom_246: -834980966
+      zzzz-Photoroom_247: 742719361
+      zzzz-Photoroom_248: -100995599
+      zzzz-Photoroom_249: 1153661286
+      zzzz-Photoroom_25: -1337484707
+      zzzz-Photoroom_250: 1466015848
+      zzzz-Photoroom_251: -319834891
+      zzzz-Photoroom_252: -297345420
+      zzzz-Photoroom_253: 1761679335
+      zzzz-Photoroom_254: 1717666615
+      zzzz-Photoroom_255: 1503520489
+      zzzz-Photoroom_256: -2028417654
+      zzzz-Photoroom_257: -1793846481
+      zzzz-Photoroom_258: -1955786780
+      zzzz-Photoroom_259: 1246896726
+      zzzz-Photoroom_26: -114783699
+      zzzz-Photoroom_260: -689437094
+      zzzz-Photoroom_261: -2006607574
+      zzzz-Photoroom_262: 809727571
+      zzzz-Photoroom_263: 1226390777
+      zzzz-Photoroom_264: -361587679
+      zzzz-Photoroom_265: -1468430346
+      zzzz-Photoroom_266: -164672068
+      zzzz-Photoroom_267: 626603393
+      zzzz-Photoroom_268: 164856505
+      zzzz-Photoroom_269: -977427011
+      zzzz-Photoroom_27: 1575486720
+      zzzz-Photoroom_270: 1150600808
+      zzzz-Photoroom_271: -36174311
+      zzzz-Photoroom_272: 2109207728
+      zzzz-Photoroom_273: -650777037
+      zzzz-Photoroom_274: -625110615
+      zzzz-Photoroom_275: 1845700113
+      zzzz-Photoroom_276: -1687377519
+      zzzz-Photoroom_277: 1192105447
+      zzzz-Photoroom_278: -927613522
+      zzzz-Photoroom_279: 1003644596
+      zzzz-Photoroom_28: 171768854
+      zzzz-Photoroom_280: -568771021
+      zzzz-Photoroom_281: 2010570839
+      zzzz-Photoroom_282: 34325820
+      zzzz-Photoroom_283: 1354715336
+      zzzz-Photoroom_284: -653601069
+      zzzz-Photoroom_285: 640387306
+      zzzz-Photoroom_286: -1714894357
+      zzzz-Photoroom_287: -989835722
+      zzzz-Photoroom_288: -1506867978
+      zzzz-Photoroom_289: -64519355
+      zzzz-Photoroom_29: -1619455849
+      zzzz-Photoroom_290: 711964991
+      zzzz-Photoroom_291: 1812829885
+      zzzz-Photoroom_292: 187441072
+      zzzz-Photoroom_293: 214081484
+      zzzz-Photoroom_294: -1706169617
+      zzzz-Photoroom_295: -1115370255
+      zzzz-Photoroom_296: -778516483
+      zzzz-Photoroom_297: 2045511858
+      zzzz-Photoroom_298: -1048065875
+      zzzz-Photoroom_299: 1043183692
+      zzzz-Photoroom_3: 1453967442
+      zzzz-Photoroom_30: -56134874
+      zzzz-Photoroom_300: 736745825
+      zzzz-Photoroom_301: 947469023
+      zzzz-Photoroom_302: 1091004073
+      zzzz-Photoroom_303: -91445536
+      zzzz-Photoroom_304: 1210402573
+      zzzz-Photoroom_305: -1951528396
+      zzzz-Photoroom_306: 1717693908
+      zzzz-Photoroom_307: -460594723
+      zzzz-Photoroom_308: 727019837
+      zzzz-Photoroom_309: 277987108
+      zzzz-Photoroom_31: 1732670023
+      zzzz-Photoroom_310: -2111544001
+      zzzz-Photoroom_311: 1877603025
+      zzzz-Photoroom_312: -389234910
+      zzzz-Photoroom_32: 166972686
+      zzzz-Photoroom_33: -1631405530
+      zzzz-Photoroom_34: -1536311066
+      zzzz-Photoroom_35: -1537093562
+      zzzz-Photoroom_36: 815018853
+      zzzz-Photoroom_37: -1664768679
+      zzzz-Photoroom_38: -1687251446
+      zzzz-Photoroom_39: 153564145
+      zzzz-Photoroom_4: -1818034304
+      zzzz-Photoroom_40: 746135996
+      zzzz-Photoroom_41: 1047821526
+      zzzz-Photoroom_42: -1512367192
+      zzzz-Photoroom_43: 1905633215
+      zzzz-Photoroom_44: 1294447548
+      zzzz-Photoroom_45: -335314265
+      zzzz-Photoroom_46: 508317437
+      zzzz-Photoroom_47: -1007582179
+      zzzz-Photoroom_48: 929692989
+      zzzz-Photoroom_49: 1619160809
+      zzzz-Photoroom_5: 1746624625
+      zzzz-Photoroom_50: -1054967123
+      zzzz-Photoroom_51: -1901459693
+      zzzz-Photoroom_52: 1628623082
+      zzzz-Photoroom_53: -526463334
+      zzzz-Photoroom_54: -115247590
+      zzzz-Photoroom_55: -427020232
+      zzzz-Photoroom_56: -273119902
+      zzzz-Photoroom_57: 1834638784
+      zzzz-Photoroom_58: -1708159480
+      zzzz-Photoroom_59: 1678609621
+      zzzz-Photoroom_6: 1116902498
+      zzzz-Photoroom_60: 951237494
+      zzzz-Photoroom_61: 1439402884
+      zzzz-Photoroom_62: -1042286638
+      zzzz-Photoroom_63: 371524565
+      zzzz-Photoroom_64: -852146100
+      zzzz-Photoroom_65: -851249625
+      zzzz-Photoroom_66: -1638453193
+      zzzz-Photoroom_67: 917038893
+      zzzz-Photoroom_68: -1392394293
+      zzzz-Photoroom_69: -1506449771
+      zzzz-Photoroom_7: -2026600932
+      zzzz-Photoroom_70: -971498264
+      zzzz-Photoroom_71: -648430960
+      zzzz-Photoroom_72: 1399174766
+      zzzz-Photoroom_73: -973121119
+      zzzz-Photoroom_74: 1311445010
+      zzzz-Photoroom_75: -1550174030
+      zzzz-Photoroom_76: -1554195578
+      zzzz-Photoroom_77: 1279525361
+      zzzz-Photoroom_78: -1601849013
+      zzzz-Photoroom_79: -1891817283
+      zzzz-Photoroom_8: 1507615894
+      zzzz-Photoroom_80: 1977972098
+      zzzz-Photoroom_81: -988995183
+      zzzz-Photoroom_82: 1463015169
+      zzzz-Photoroom_83: 1573026250
+      zzzz-Photoroom_84: -300004847
+      zzzz-Photoroom_85: 464883799
+      zzzz-Photoroom_86: -1103540462
+      zzzz-Photoroom_87: 1196099836
+      zzzz-Photoroom_88: 1493881432
+      zzzz-Photoroom_89: 1219650289
+      zzzz-Photoroom_9: -1942595907
+      zzzz-Photoroom_90: 2047989458
+      zzzz-Photoroom_91: -1869874165
+      zzzz-Photoroom_92: 233477587
+      zzzz-Photoroom_93: -1703607150
+      zzzz-Photoroom_94: 618295115
+      zzzz-Photoroom_95: 136174545
+      zzzz-Photoroom_96: 867499347
+      zzzz-Photoroom_97: 501450024
+      zzzz-Photoroom_98: -821785992
+      zzzz-Photoroom_99: -1862519430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
