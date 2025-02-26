@@ -187,20 +187,7 @@ PolygonCollider2D:
       - {x: 0.117948174, y: 0.32796335}
       - {x: 0.10399723, y: 0.32843226}
   m_UseDelaunayMesh: 0
---- !u!114 &996753362897225837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8631281637279679163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7997074f40c76541a0182ff40ba61d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speedBot: 5
---- !u!50 &9094673878020274102
+--- !u!50 &466185392935090957
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -226,4 +213,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
