@@ -4,20 +4,25 @@ using UnityEngine;
 
 public class Enemis_Move : MonoBehaviour
 {
-    [SerializeField] private float _speedBot = 2f;
-    [SerializeField] private float _Site = 20f;
+    [SerializeField] private float _speedBot = 4f;
+    [SerializeField] private float _Site = 10f;
+    [SerializeField] private float _attackRange = 1.2f;
+    [SerializeField] private float _patrolDistance = 10f;
 
     private Transform _player;
     private Rigidbody2D _rb;
     private Animator _animator;
+    private Vector2 _startPosition;
+    private bool _movingRight = true;
     bool isFacingRight = true;
     bool isAttacking = false;
 
     void Start()
     {
-        _player = GameObject.Find("Player").transform;
+        _player = GameObject.FindWithTag("Player").transform;
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _startPosition = transform.position;
     }
 
     void Update()
@@ -27,21 +32,29 @@ public class Enemis_Move : MonoBehaviour
             float distanceToPlayer = Vector2.Distance(transform.position, _player.position);
             if (distanceToPlayer <= _Site)
             {
-                Vector2 direction = (_player.position - transform.position).normalized;
-                _rb.velocity = direction * _speedBot;
+                if (distanceToPlayer <= _attackRange)
+                {
+                    AttackPlayer();
+                }
+                else if (!isAttacking)
+                {
+                    MoveTowardsPlayer();
+                }
             }
-            else
+            else if (!isAttacking)
             {
-                _rb.velocity = Vector2.zero;
+                Patrol();
             }
         }
     }
 
     void FixedUpdate()
     {
-        _rb.velocity = new Vector2(_speedBot, _rb.velocity.y);
-        _animator.SetFloat("XMove", Mathf.Abs(_rb.velocity.x));
-        FlipSprite();
+        if (!isAttacking)
+        {
+            _animator.SetFloat("XMove", Mathf.Abs(_rb.velocity.x));
+            FlipSprite();
+        }
     }
 
     private void FlipSprite()
@@ -53,5 +66,49 @@ public class Enemis_Move : MonoBehaviour
             ls.x *= -1;
             transform.localScale = ls;
         }
+    }
+
+    private void MoveTowardsPlayer()
+    {
+        Vector2 direction = (_player.position - transform.position).normalized;
+        _rb.velocity = direction * _speedBot;
+    }
+
+    private void Patrol()
+    {
+        if (_movingRight)
+        {
+            _rb.velocity = new Vector2(_speedBot, _rb.velocity.y);
+            if (transform.position.x >= _startPosition.x + _patrolDistance)
+            {
+                _movingRight = false;
+            }
+        }
+        else
+        {
+            _rb.velocity = new Vector2(-_speedBot, _rb.velocity.y);
+            if (transform.position.x <= _startPosition.x - _patrolDistance)
+            {
+                _movingRight = true;
+            }
+        }
+    }
+
+    private void AttackPlayer()
+    {
+        if (!isAttacking)
+        {
+            isAttacking = true;
+            _rb.velocity = Vector2.zero;
+            _animator.SetFloat("XMove", 0);
+            _animator.SetTrigger("Attacking");
+            StartCoroutine(ResetAttack());
+        }
+    }
+
+    private IEnumerator ResetAttack()
+    {
+        yield return new WaitForSeconds(1f);
+        isAttacking = false;
     }
 }
