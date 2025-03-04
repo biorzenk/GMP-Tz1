@@ -100,7 +100,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speedBot: 2
-  _Site: 5
+  _Site: 7
+  _attackRange: 2
+  _patrolDistance: 10
 --- !u!50 &315509518364797162
 Rigidbody2D:
   serializedVersion: 4
