@@ -2,6 +2,11 @@
 
 public class PlayerAttack : MonoBehaviour
 {
+    [Header("Health")]
+    [SerializeField] public int _MaxHealth;
+    [SerializeField] public int _Damage;
+
+    private float _currentHealth;
     private Animator animator;
     private int attackCount = 1;
     private float nextAttackTime = 0f; 
@@ -9,7 +14,11 @@ public class PlayerAttack : MonoBehaviour
     private static readonly int AttackIndex = Animator.StringToHash("AttackIndex");
     private static readonly int Attack = Animator.StringToHash("Attack");
 
-    void Start() => animator = GetComponent<Animator>();
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        _currentHealth = _MaxHealth;
+    }
 
     void Update()
     {
@@ -41,5 +50,17 @@ public class PlayerAttack : MonoBehaviour
     {
         canAttack = true; 
         nextAttackTime = Time.time; 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Enemies_Move enemy = collision.gameObject.GetComponent<Enemies_Move>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(_Damage);
+            }
+        }
     }
 }

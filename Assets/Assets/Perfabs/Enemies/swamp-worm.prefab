@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4579977509801702764}
   m_Layer: 0
   m_Name: swamp-worm
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,6 +103,8 @@ MonoBehaviour:
   _Site: 7
   _attackRange: 2
   _patrolDistance: 10
+  _damage: 10
+  _MaxHealth: 100
 --- !u!50 &315509518364797162
 Rigidbody2D:
   serializedVersion: 4

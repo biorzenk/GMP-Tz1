@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemis_Move : MonoBehaviour
+public class Enemies_Move : MonoBehaviour
 {
+    [Header("Enemy Stats")] 
     [SerializeField] private float _speedBot = 4f;
     [SerializeField] private float _Site = 10f;
     [SerializeField] private float _attackRange = 1.2f;
     [SerializeField] private float _patrolDistance = 10f;
+    [SerializeField] private float _damage = 10f;
+    [SerializeField] private float _MaxHealth = 100f;
 
+    private float _currentHealth;
     private Transform _player;
     private Rigidbody2D _rb;
     private Animator _animator;
@@ -16,6 +20,7 @@ public class Enemis_Move : MonoBehaviour
     private bool _movingRight = true;
     bool isFacingRight = true;
     bool isAttacking = false;
+    bool isDead = false;    
 
     void Start()
     {
@@ -23,6 +28,7 @@ public class Enemis_Move : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _startPosition = transform.position;
+        _currentHealth = _MaxHealth;
     }
 
     void Update()
@@ -54,6 +60,11 @@ public class Enemis_Move : MonoBehaviour
         {
             _animator.SetFloat("XMove", Mathf.Abs(_rb.velocity.x));
             FlipSprite();
+        }
+
+        if (isDead)
+        {
+            _animator.SetBool("Dead", true);
         }
     }
 
@@ -110,5 +121,26 @@ public class Enemis_Move : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         isAttacking = false;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        if (!isDead)
+        {
+            _currentHealth -= damage;
+            Debug.Log(_currentHealth);
+            if (_currentHealth <= 0)
+            {
+                Die();
+            }
+        }
+    }
+
+    private void Die()
+    {
+        _rb.velocity = Vector2.zero;
+        isDead = true;
+        _animator.SetTrigger("Dead");
+        Destroy(gameObject, 1f);
     }
 }
