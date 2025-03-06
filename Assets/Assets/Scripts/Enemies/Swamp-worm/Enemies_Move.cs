@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemies_Move : MonoBehaviour
 {
-    [Header("Enemy Stats")] 
+    [Header("Enemy Stats")]
     [SerializeField] private float _speedBot = 4f;
     [SerializeField] private float _Site = 10f;
     [SerializeField] private float _attackRange = 1.2f;
@@ -20,7 +20,7 @@ public class Enemies_Move : MonoBehaviour
     private bool _movingRight = true;
     bool isFacingRight = true;
     bool isAttacking = false;
-    bool isDead = false;    
+    bool isDead = false;
 
     void Start()
     {

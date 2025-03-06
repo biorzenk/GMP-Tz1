@@ -892,6 +892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 666
       objectReference: {fileID: 0}
+    - target: {fileID: 7436043929919537745, guid: 93a074df0af820647b34d891e5137354, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8488378218877488689, guid: 93a074df0af820647b34d891e5137354, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.92
@@ -1203,6 +1207,10 @@ PrefabInstance:
     - target: {fileID: 8631281637279679163, guid: dbe660f722a565740919f58d5572b910, type: 3}
       propertyPath: m_Name
       value: Bat-Devil
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631281637279679163, guid: dbe660f722a565740919f58d5572b910, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
