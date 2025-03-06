@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Number Field")]
-    [SerializeField] public float velo;
-    [SerializeField] public float jumpForce;
+    [Header("Move")]
+    [SerializeField] public float _Velo;
+    [SerializeField] public float _JumpForce;
 
-    [Header("Health")]
-    [SerializeField] public int maxHealth;
+
 
     private Rigidbody2D rb;
-
+    private float _CurrentHealth;
     float horizontalInput;
     bool isGrounded = false;
     private Animator animator;
@@ -33,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         FlipSprite();
         if (Input.GetButtonDown("Jump") && isGrounded) 
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.velocity = new Vector2(rb.velocity.x, _JumpForce);
             isGrounded = false;
             animator.SetBool("isJumping", true); 
         }
@@ -41,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontalInput * velo, rb.velocity.y);
+        rb.velocity = new Vector2(horizontalInput * _Velo, rb.velocity.y);
         animator.SetFloat("Xvelocity", Mathf.Abs(rb.velocity.x));
         animator.SetFloat("Yvelocity", rb.velocity.y); 
     }
@@ -63,5 +62,6 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isJumping", false);
     }
 
+   
     #endregion
 }
