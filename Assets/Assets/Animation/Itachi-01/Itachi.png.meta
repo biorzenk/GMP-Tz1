@@ -45,14 +45,14 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -114,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1915
+        y: 0
         width: 1301
-        height: 98
+        height: 2013
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,18 +135,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1817
-        width: 1301
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        y: 1695
+        width: 47
+        height: 123
+      alignment: 9
+      pivot: {x: -6.2126107, y: 2.4200616}
+      border: {x: 5, y: 39, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad55a2f59ac4a4f4cad79b35141ecdb4
-      internalID: -1043921674
+      spriteID: fafb802069f5bb043a1c21122c662664
+      internalID: 1712412392
       vertices: []
       indices: 
       edges: []
@@ -155,19 +155,19 @@ TextureImporter:
       name: Itachi_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1719
-        width: 1301
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 53
+        y: 1735
+        width: 36
+        height: 83
+      alignment: 9
+      pivot: {x: -13.248582, y: 0.47772044}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ad6f8fb6ed573e42a4a6f49b6f811a1
-      internalID: -707307057
+      spriteID: 452a553878e36024c8ad3ffa7010f719
+      internalID: -1158719640
       vertices: []
       indices: 
       edges: []
@@ -176,19 +176,19 @@ TextureImporter:
       name: Itachi_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1621
-        width: 1301
-        height: 98
+        x: 98
+        y: 1736
+        width: 38
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4b8da5ecaf21fb43898b7514c1707d4
-      internalID: -828190253
+      spriteID: 7167b686bd29d804d9f0724860d68778
+      internalID: 1352071631
       vertices: []
       indices: 
       edges: []
@@ -197,19 +197,19 @@ TextureImporter:
       name: Itachi_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1523
-        width: 1301
-        height: 98
+        x: 194
+        y: 1736
+        width: 45
+        height: 77
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f495c2f04a52d1458798d23c711066e
-      internalID: -556336927
+      spriteID: 744b7fbcce08c284d8c8dd6f9b72a324
+      internalID: 656660343
       vertices: []
       indices: 
       edges: []
@@ -219,18 +219,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1425
-        width: 1301
-        height: 98
+        y: 1599
+        width: 49
+        height: 97
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c9d20012c1ea8d43bda3fccc3494589
-      internalID: 327657238
+      spriteID: 5c7a0c79511539c46b1a90717d94ba19
+      internalID: -1943066275
       vertices: []
       indices: 
       edges: []
@@ -239,19 +239,19 @@ TextureImporter:
       name: Itachi_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1327
-        width: 1301
-        height: 98
+        x: 49
+        y: 1599
+        width: 51
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44f4a48e34c97c94a85c89e7b1cec3f0
-      internalID: -1129904298
+      spriteID: 11102abda0a32f048950f222a87c06f1
+      internalID: 96445405
       vertices: []
       indices: 
       edges: []
@@ -260,19 +260,19 @@ TextureImporter:
       name: Itachi_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1229
-        width: 1301
-        height: 98
+        x: 104
+        y: 1604
+        width: 45
+        height: 95
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 353801b2fa3e7e64ab4869a66071eb1c
-      internalID: -473246308
+      spriteID: a99fce48697c40149ad43b61cee38af9
+      internalID: 1094518869
       vertices: []
       indices: 
       edges: []
@@ -281,19 +281,19 @@ TextureImporter:
       name: Itachi_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1131
-        width: 1301
-        height: 98
+        x: 159
+        y: 1607
+        width: 47
+        height: 91
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f2b9602637870741bd42e6c691e7d39
-      internalID: -931642984
+      spriteID: 691267d09fb736f4db2a5e764c8fa880
+      internalID: -742798198
       vertices: []
       indices: 
       edges: []
@@ -302,19 +302,19 @@ TextureImporter:
       name: Itachi_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1033
-        width: 1301
-        height: 98
+        x: 212
+        y: 1611
+        width: 48
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79525124a7b044340bf2b5776386e047
-      internalID: 313903103
+      spriteID: 22d68c4aa720aed40ac882d2bbe2daf9
+      internalID: 1218218587
       vertices: []
       indices: 
       edges: []
@@ -323,19 +323,19 @@ TextureImporter:
       name: Itachi_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 935
-        width: 1301
-        height: 98
+        x: 264
+        y: 1609
+        width: 51
+        height: 92
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbfe30ea3afbaea45bf3dbea5d683230
-      internalID: 150566416
+      spriteID: 1adb82594596db24dbd79679e5a919c2
+      internalID: 1899130342
       vertices: []
       indices: 
       edges: []
@@ -344,19 +344,19 @@ TextureImporter:
       name: Itachi_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 837
-        width: 1301
-        height: 98
+        x: 323
+        y: 1609
+        width: 49
+        height: 97
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79aada66104bd454b8a69fe0e3259604
-      internalID: -1379135701
+      spriteID: acc053b3b43016b4fbe6b30138204354
+      internalID: 332247361
       vertices: []
       indices: 
       edges: []
@@ -365,19 +365,19 @@ TextureImporter:
       name: Itachi_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 739
-        width: 1301
-        height: 98
+        x: 378
+        y: 1609
+        width: 50
+        height: 103
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 690d5e47567efcf4d8c7454d21efa9bd
-      internalID: 1953093144
+      spriteID: 37cfd5bb4d825f24189c02db7a99a21e
+      internalID: 1504573641
       vertices: []
       indices: 
       edges: []
@@ -386,19 +386,19 @@ TextureImporter:
       name: Itachi_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 641
-        width: 1301
-        height: 98
+        x: 430
+        y: 1610
+        width: 55
+        height: 105
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72f9eebe1dc84b84ea53cf0d2bfb6922
-      internalID: -87486930
+      spriteID: 39faffade3b403346942e55a5fbdc67c
+      internalID: -1579191886
       vertices: []
       indices: 
       edges: []
@@ -407,124 +407,19 @@ TextureImporter:
       name: Itachi_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 543
-        width: 1301
-        height: 98
+        x: 490
+        y: 1612
+        width: 44
+        height: 121
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3512cd9f53d7044b9d5470c4c47a1eb
-      internalID: 1514796398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Itachi_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 445
-        width: 1301
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91c56d48cca772a4096b322890c5cc93
-      internalID: 1730854824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Itachi_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 347
-        width: 1301
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 346e93f173d7f7245afb30863f177350
-      internalID: 1381364418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Itachi_17
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 249
-        width: 1301
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f2d5ef0578c92949ab716d282bffed7
-      internalID: 1489431162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Itachi_18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 151
-        width: 1301
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c812249cf0f736e408413e9ac55b9cad
-      internalID: 377612375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Itachi_19
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 53
-        width: 1301
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db587f8f428b3014f8624a83bd350624
-      internalID: -1525747771
+      spriteID: 5cab0a9c4ce0d2c489c6d3c4d2f5d644
+      internalID: -194135448
       vertices: []
       indices: 
       edges: []
@@ -541,25 +436,20 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Itachi_0: 417249100
-      Itachi_1: -1043921674
-      Itachi_10: 150566416
-      Itachi_11: -1379135701
-      Itachi_12: 1953093144
-      Itachi_13: -87486930
-      Itachi_14: 1514796398
-      Itachi_15: 1730854824
-      Itachi_16: 1381364418
-      Itachi_17: 1489431162
-      Itachi_18: 377612375
-      Itachi_19: -1525747771
-      Itachi_2: -707307057
-      Itachi_3: -828190253
-      Itachi_4: -556336927
-      Itachi_5: 327657238
-      Itachi_6: -1129904298
-      Itachi_7: -473246308
-      Itachi_8: -931642984
-      Itachi_9: 313903103
+      Itachi_1: 1712412392
+      Itachi_10: 1899130342
+      Itachi_11: 332247361
+      Itachi_12: 1504573641
+      Itachi_13: -1579191886
+      Itachi_14: -194135448
+      Itachi_2: -1158719640
+      Itachi_3: 1352071631
+      Itachi_4: 656660343
+      Itachi_5: -1943066275
+      Itachi_6: 96445405
+      Itachi_7: 1094518869
+      Itachi_8: -742798198
+      Itachi_9: 1218218587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
