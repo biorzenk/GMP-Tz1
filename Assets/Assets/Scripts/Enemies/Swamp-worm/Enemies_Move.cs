@@ -25,12 +25,15 @@ public class Enemies_Move : MonoBehaviour
     void Start()
     {
         _player = GameObject.FindWithTag("Player").transform;
-        _rb = GetComponent<Rigidbody2D>();
-        _animator = GetComponent<Animator>();
         _startPosition = transform.position;
         _currentHealth = _MaxHealth;
     }
 
+    private void Awake()
+    {
+        _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+    }
     void Update()
     {
         if (_player != null)
