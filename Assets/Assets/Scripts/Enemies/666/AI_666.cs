@@ -118,6 +118,7 @@ public class AI_666 : MonoBehaviour
             PlayerAttack player = collision.gameObject.GetComponent<PlayerAttack>();
             if (player != null)
             {
+                AttackPlayer();
                 player.TakeDamage(_damage);
                 Debug.Log(player._currentHealth);
             }

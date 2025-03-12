@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 4785093131290902148}
   - component: {fileID: 2037119316462645115}
   - component: {fileID: 315509518364797162}
-  - component: {fileID: 4579977509801702764}
+  - component: {fileID: 8670746537362318903}
+  - component: {fileID: 5285862656063472618}
   m_Layer: 0
   m_Name: swamp-worm
   m_TagString: Enemy
@@ -73,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1861317561
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2ec5f6384d8c8994ca555fc536cba322, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -99,12 +100,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7997074f40c76541a0182ff40ba61d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speedBot: 2
-  _Site: 7
-  _attackRange: 2
+  _speedBot: 1
+  _Site: 5
+  _attackRange: 1
   _patrolDistance: 10
   _damage: 10
-  _MaxHealth: 100
+  _MaxHealthSW: 100
+  _attackCooldown: 2
+  _attackHitBox: {fileID: 0}
+  _currentHealth_sw: 0
 --- !u!50 &315509518364797162
 Rigidbody2D:
   serializedVersion: 4
@@ -132,8 +136,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &4579977509801702764
-BoxCollider2D:
+--- !u!95 &8670746537362318903
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696521564382645806}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fd86fc492537ba545bf78ec40f235e22, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!60 &5285862656063472618
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -164,7 +189,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.13639593, y: -0.18578064}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -174,6 +199,49 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.67076826, y: 0.65665865}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.060117006, y: 0.063203335}
+      - {x: -0.0615685, y: 0.12511206}
+      - {x: -0.124438524, y: 0.12619758}
+      - {x: -0.12678552, y: 0.093595505}
+      - {x: -0.1573534, y: 0.093431234}
+      - {x: -0.15555096, y: 0.066604376}
+      - {x: -0.18817759, y: 0.062300682}
+      - {x: -0.18707705, y: 0.030576944}
+      - {x: -0.22654915, y: 0.03609085}
+      - {x: -0.21975565, y: -0.028030157}
+      - {x: -0.2509792, y: -0.029147863}
+      - {x: -0.24815941, y: -0.092573404}
+      - {x: -0.28208566, y: -0.09375763}
+      - {x: -0.2834084, y: -0.15428281}
+      - {x: -0.34441352, y: -0.15880418}
+      - {x: -0.3466587, y: -0.183074}
+      - {x: -0.4734435, y: -0.18588543}
+      - {x: -0.4677987, y: -0.2515154}
+      - {x: -0.44229627, y: -0.24962497}
+      - {x: -0.44807887, y: -0.31468368}
+      - {x: -0.41220975, y: -0.31702328}
+      - {x: -0.41411757, y: -0.37348986}
+      - {x: -0.37262774, y: -0.38492537}
+      - {x: -0.38049555, y: -0.41481805}
+      - {x: -0.24725199, y: -0.40712333}
+      - {x: -0.25619364, y: -0.47106838}
+      - {x: -0.22031355, y: -0.5070958}
+      - {x: 0.16288829, y: -0.5031369}
+      - {x: 0.16384387, y: -0.46665287}
+      - {x: 0.12923527, y: -0.46772456}
+      - {x: 0.123946905, y: -0.444865}
+      - {x: 0.12756348, y: -0.37750745}
+      - {x: 0.15640473, y: -0.37556624}
+      - {x: 0.15907264, y: -0.31505537}
+      - {x: 0.18908048, y: -0.3161962}
+      - {x: 0.18752742, y: -0.24917316}
+      - {x: 0.1581161, y: -0.2494986}
+      - {x: 0.16011882, y: -0.028697252}
+      - {x: 0.1271925, y: -0.03240037}
+      - {x: 0.12909937, y: 0.11907983}
+      - {x: 0.12503147, y: 0.12545729}
+      - {x: 0.087813854, y: 0.12559581}
+      - {x: 0.088727474, y: 0.063008785}
+  m_UseDelaunayMesh: 0
