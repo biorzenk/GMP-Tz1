@@ -6,6 +6,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] public int _MaxHealth;
     [SerializeField] public int _Damage;
 
+    public Health_Bar Health_Bar;
     public float _Diamonds;
     public float _currentHealth;
     private Animator animator;
@@ -20,6 +21,7 @@ public class PlayerAttack : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         _currentHealth = _MaxHealth;
+        Health_Bar.SetMaxHealth(_MaxHealth);
     }
 
     void Update()
@@ -70,6 +72,7 @@ public class PlayerAttack : MonoBehaviour
     public void TakeDamage(float damage)
     {
         _currentHealth -= damage;
+        Health_Bar.SetHealth((int)_currentHealth);
         if (_currentHealth <= 0)
         {
             isDead = true;
