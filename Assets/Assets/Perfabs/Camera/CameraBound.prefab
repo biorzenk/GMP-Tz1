@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &676972344264867862
+--- !u!1 &4493808552338950834
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1707161996792713616}
-  - component: {fileID: 2959592042969258764}
-  - component: {fileID: 2781037541343436108}
+  - component: {fileID: 7948693255496179682}
+  - component: {fileID: 5391774610570813557}
   m_Layer: 0
-  m_Name: Hitbox-Player
+  m_Name: CameraBound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1707161996792713616
+--- !u!4 &7948693255496179682
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676972344264867862}
+  m_GameObject: {fileID: 4493808552338950834}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 73.114746, y: 7.249757, z: -0.39836505}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2959592042969258764
-BoxCollider2D:
+--- !u!60 &5391774610570813557
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676972344264867862}
-  m_Enabled: 1
+  m_GameObject: {fileID: 4493808552338950834}
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -75,19 +74,13 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &2781037541343436108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676972344264867862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54f0a1937208441499638034970c1a1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Damage: 10
+  m_Points:
+    m_Paths:
+    - - {x: 1.7865219, y: 11.123571}
+      - {x: -95.286316, y: 11.505092}
+      - {x: -95.87527, y: -26.542717}
+      - {x: -63.2193, y: -25.615376}
+      - {x: 31.554012, y: -26.117964}
+      - {x: 263.756, y: -24.854874}
+      - {x: 265.48566, y: 9.818153}
+  m_UseDelaunayMesh: 0

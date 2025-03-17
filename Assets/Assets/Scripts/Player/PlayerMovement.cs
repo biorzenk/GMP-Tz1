@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded = false;
     private Animator animator;
     bool isFacingRight = true;
+    private bool canAttack = true;
 
     #region States
 
@@ -33,7 +34,9 @@ public class PlayerMovement : MonoBehaviour
         {
             _rb.velocity = new Vector2(_rb.velocity.x, _JumpForce);
             isGrounded = false;
-            animator.SetBool("isJumping", true); 
+            animator.SetBool("isJumping", true);
+            canAttack = false;
+            animator.SetBool("Attack", false);
         }
     }
 
@@ -56,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {
+    {   
         isGrounded = true;
         animator.SetBool("isJumping", false);
     }

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -54,19 +55,6 @@ public class PlayerAttack : MonoBehaviour
     {
         canAttack = true;
         nextAttackTime = Time.time;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Debug.Log("Collided with an enemy.");
-            Enemies_Move enemy = collision.gameObject.GetComponent<Enemies_Move>();
-            if (enemy != null)
-            {
-                enemy.TakeDamage(_Damage);
-            }
-        }
     }
 
     public void TakeDamage(float damage)
