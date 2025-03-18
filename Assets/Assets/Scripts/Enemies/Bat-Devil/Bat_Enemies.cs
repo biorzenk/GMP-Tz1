@@ -144,4 +144,17 @@ public class Bat_Enemies : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerAttack player = collision.gameObject.GetComponent<PlayerAttack>();
+            if (player != null)
+            {
+                AttackPlayer();
+                player.TakeDamage(_damage);
+            }
+        }
+    }
+
 }

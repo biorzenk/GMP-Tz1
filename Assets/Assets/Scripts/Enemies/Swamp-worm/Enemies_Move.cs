@@ -10,9 +10,14 @@ public class Enemies_Move : MonoBehaviour
     [SerializeField] private float _attackRange = 1.2f;
     [SerializeField] private float _patrolDistance = 10f;
     [SerializeField] private float _damage = 10f;
-    [SerializeField] private float _MaxHealth = 100f;
+    [SerializeField] private float _MaxHealthSW = 100f;
+    [SerializeField] private float _attackCooldown = 2f;
 
-    private float _currentHealth;
+    [Header("Attack Hit Box")]
+    [SerializeField] private BoxCollider2D _attackHitBox;
+
+    private float CooldownTimer =  Mathf.Infinity;
+    public float _currentHealth_sw;
     private Transform _player;
     private Rigidbody2D _rb;
     private Animator _animator;
@@ -24,15 +29,16 @@ public class Enemies_Move : MonoBehaviour
 
     void Start()
     {
-        _player = GameObject.FindWithTag("Player").transform;
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _player = GameObject.FindWithTag("Player").transform;
         _startPosition = transform.position;
-        _currentHealth = _MaxHealth;
+        _currentHealth_sw = _MaxHealthSW;
     }
 
     void Update()
     {
+        CooldownTimer += Time.deltaTime;
         if (_player != null)
         {
             float distanceToPlayer = Vector2.Distance(transform.position, _player.position);
@@ -40,9 +46,12 @@ public class Enemies_Move : MonoBehaviour
             {
                 if (distanceToPlayer <= _attackRange)
                 {
-                    AttackPlayer();
+                    if(!isAttacking)
+                    {
+                        AttackPlayer();
+                    }
                 }
-                else if (!isAttacking)
+                else 
                 {
                     MoveTowardsPlayer();
                 }
@@ -107,7 +116,7 @@ public class Enemies_Move : MonoBehaviour
 
     private void AttackPlayer()
     {
-        if (!isAttacking)
+        if (!isAttacking && !isDead)
         {
             isAttacking = true;
             _rb.velocity = Vector2.zero;
@@ -127,9 +136,9 @@ public class Enemies_Move : MonoBehaviour
     {
         if (!isDead)
         {
-            _currentHealth -= damage;
-            Debug.Log(_currentHealth);
-            if (_currentHealth <= 0)
+            _currentHealth_sw -= damage;
+            Debug.Log(_currentHealth_sw);
+            if (_currentHealth_sw <= 0)
             {
                 Die();
             }
@@ -142,5 +151,29 @@ public class Enemies_Move : MonoBehaviour
         isDead = true;
         _animator.SetTrigger("Dead");
         Destroy(gameObject, 1f);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerAttack player = collision.gameObject.GetComponent<PlayerAttack>();
+            if (player != null)
+            {
+                player.TakeDamage(_damage);
+                Debug.Log("Player Health: " + player._currentHealth);
+            }
+        }
+    }
+    private bool CanAttack()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(_attackHitBox.bounds.center, Vector2.right * transform.localScale.x, _attackRange);
+        return hit.collider != null;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, _Site);
     }
 }

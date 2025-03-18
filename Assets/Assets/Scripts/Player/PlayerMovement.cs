@@ -10,8 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-    private Rigidbody2D rb;
-    private float _CurrentHealth;
+    private Rigidbody2D _rb;
     float horizontalInput;
     bool isGrounded = false;
     private Animator animator;
@@ -21,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        _rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }                                   
 
@@ -32,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         FlipSprite();
         if (Input.GetButtonDown("Jump") && isGrounded) 
         {
-            rb.velocity = new Vector2(rb.velocity.x, _JumpForce);
+            _rb.velocity = new Vector2(_rb.velocity.x, _JumpForce);
             isGrounded = false;
             animator.SetBool("isJumping", true); 
         }
@@ -40,9 +39,9 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontalInput * _Velo, rb.velocity.y);
-        animator.SetFloat("Xvelocity", Mathf.Abs(rb.velocity.x));
-        animator.SetFloat("Yvelocity", rb.velocity.y); 
+        _rb.velocity = new Vector2(horizontalInput * _Velo, _rb.velocity.y);
+        animator.SetFloat("Xvelocity", Mathf.Abs(_rb.velocity.x));
+        animator.SetFloat("Yvelocity", _rb.velocity.y); 
     }
 
     private void FlipSprite()
