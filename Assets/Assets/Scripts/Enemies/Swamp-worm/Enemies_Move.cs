@@ -13,9 +13,8 @@ public class Enemies_Move : MonoBehaviour
     [SerializeField] private float _MaxHealthSW = 100f;
     [SerializeField] private float _attackCooldown = 2f;
 
-    [Header("Attack Hit Box")]
-    [SerializeField] private BoxCollider2D _attackHitBox;
 
+    Hitbox_Player playerAttack;
     private float CooldownTimer =  Mathf.Infinity;
     public float _currentHealth_sw;
     private Transform _player;
@@ -153,27 +152,4 @@ public class Enemies_Move : MonoBehaviour
         Destroy(gameObject, 1f);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            PlayerAttack player = collision.gameObject.GetComponent<PlayerAttack>();
-            if (player != null)
-            {
-                player.TakeDamage(_damage);
-                Debug.Log("Player Health: " + player._currentHealth);
-            }
-        }
-    }
-    private bool CanAttack()
-    {
-        RaycastHit2D hit = Physics2D.Raycast(_attackHitBox.bounds.center, Vector2.right * transform.localScale.x, _attackRange);
-        return hit.collider != null;
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, _Site);
-    }
 }
