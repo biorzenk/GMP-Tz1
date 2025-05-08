@@ -108,7 +108,7 @@ public class Bat_Enemies : MonoBehaviour
 
     private IEnumerator ResetAttack()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         isAttacking = false;
     }
 
