@@ -296,7 +296,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: New Float
+  - m_Name: LastOnWallTime
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -640,7 +640,7 @@ AnimatorStateMachine:
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -480, y: 230, z: 0}
-  m_EntryPosition: {x: -200, y: 150, z: 0}
+  m_EntryPosition: {x: 0, y: 210, z: 0}
   m_ExitPosition: {x: 40, y: 290, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -3323372651542802570}

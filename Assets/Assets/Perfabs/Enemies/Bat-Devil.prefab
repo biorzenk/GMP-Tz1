@@ -234,8 +234,8 @@ MonoBehaviour:
   _Site: 10
   _attackRange: 1.2
   _patrolDistance: 10
-  _damage: 10
-  _MaxHealth: 100
+  _damage: 5
+  _MaxHealth: 50
 --- !u!95 &5397846914001654959
 Animator:
   serializedVersion: 5
