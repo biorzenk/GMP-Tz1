@@ -20,7 +20,7 @@ public class Bat_Enemies : MonoBehaviour
     private bool _movingRight = true;
     bool isFacingRight = true;
     bool isAttacking = false;
-    bool isDead = false;
+    public bool isDead = false;
 
 
     void Start()
@@ -108,8 +108,9 @@ public class Bat_Enemies : MonoBehaviour
 
     private IEnumerator ResetAttack()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1.5f);
         isAttacking = false;
+        _animator.GetFloat("XMove");
     }
 
     public void TakeDamage(float damage)
@@ -125,7 +126,7 @@ public class Bat_Enemies : MonoBehaviour
         }
     }
 
-    private void Die()
+    public void Die()
     {
         _rb.velocity = Vector2.zero;
         isDead = true;

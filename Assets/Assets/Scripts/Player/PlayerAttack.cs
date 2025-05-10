@@ -16,7 +16,7 @@ public class PlayerAttack : MonoBehaviour
     private bool canAttack = true;
     private static readonly int AttackIndex = Animator.StringToHash("AttackIndex");
     private static readonly int Attack = Animator.StringToHash("Attack");
-    bool isDead = false;
+    public bool isDead = false;
 
     void Start()
     {
